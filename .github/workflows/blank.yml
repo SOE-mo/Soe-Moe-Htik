@@ -1,0 +1,36 @@
+< !DOCTYPE html>
+<html>
+<head>
+ <title>Title</title>
+ <style>
+ .boxes {
+ width: 800px;
+ margin: 20px auto;
+ text-align: center;
+ }
+ .box {
+ height: 200px;
+ }
+ #box1 {
+ background: darkcyan;
+ }
+ #box2 {
+ background:dodgerblue;
+ }
+ #box3 {
+ background: darkorange;
+ }
+ </style>
+</head>
+<body>
+ <div class="boxes">
+ <div class="box" id="box1"></div>
+ <div class="box" id="box2"></div>
+ <div class="box" id="box3"></div>
+ <div class="controls">
+ <button id="prev">&laquo; Prev</button>
+ <button id="next">Next &raquo;</button>
+ </div>
+ </div>
+</body>
+</html>
